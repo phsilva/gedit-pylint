@@ -1,0 +1,74 @@
+2007-03-20  P. Henrique Silva  <ph.silva@gmail.com>
+
+	* pylint/gedit_pylint.py: Updated comment on Gedit flash_message availability.
+
+2007-02-23  Francisco J. Jordano Jimenez <arcturus@ardeenelinfierno.com>
+
+	* pylint.gedit-plugin: Add Francisco's to authors list.
+
+	* pylint/gedit_pylint.py: Add support for pylint version check.
+
+	Patch verified by P. Henrique Silva <ph.silva@gmail.com>
+
+2007-02-22  P. Henrique Silva  <ph.silva@gmail.com>
+
+	* pylint/gedit_pylint.py: Fix a big on deactivation code.
+
+	Add remove_panel method.
+
+2007-02-03  P. Henrique Silva  <ph.silva@gmail.com>
+
+	* pylint/gedit_pylint.py: Add scroll to line when double click on
+	a row of PylintResults.
+
+2007-01-29  P. Henrique Silva  <ph.silva@gmail.com>
+
+	* ChangeLog:
+	* README:
+
+	Updated pylint URL.
+
+	* ChangeLog:
+	* TODO:
+
+	TODO updated.
+
+	* ChangeLog:
+	* pylint/gedit_pylint.py:
+	
+	Added Pixbuf column to PylintResultsModel.
+
+	Added stock_id to PylintMessage.
+
+	Added support for double-click on PylintResultsView to goto error
+	line.
+
+2007-01-28  P. Henrique Silva  <henrique@astro.ufsc.br>
+
+	* pylint/gedit_pylint.py: better parsing of pylint results
+
+	Added a new parser based on Christopher Lenz
+	(http://bitten.cmlenz.net/) Bitten code.
+
+	Added PylintResultsWindow (a GtkScrolledWindow) to manage the
+	PylintResultsView.
+
+	PylintMessage refactored.
+	
+
+2007-01-27  P. Henrique Silva  <ph.silva@gmail.com>
+
+	* AUTHORS:
+	* COPYING:
+	* ChangeLog:
+	* NEWS:
+	* README:
+	* TODO:
+	* pylint.gedit-plugin:
+	* pylint/__init__.py:
+	* pylint/gedit_pylint.py:
+
+	First import.
+
+
+

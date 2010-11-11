@@ -1,0 +1,9 @@
+[Gedit Plugin]
+Loader=python
+Module=pylint
+IAge=2
+Name=Pylint
+Description=Pylint static analysis support
+Authors=P. Henrique Silva <ph.silva@gmail.com>;Francisco J. Jordano Jimenez <arcturus@ardeenelinfierno.com>
+Copyright=Copyright (c) 2007 P. Henrique Silva <ph.silva@gmail.com
+Website=http://www.astro.ufsc.br/~henrique

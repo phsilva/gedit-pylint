@@ -1,0 +1,29 @@
+gedit-pylint
+============
+
+gedit-pylint is a small Python plugin to use pylint
+(http://www.logilab.org/pylint) inside GNOME's Gedit editor.
+
+This plugin is a proof-of-concept to add more Python development
+capabilities to Gedit. Please look at TODO for a updated list of things
+todo so gedit-pylint can become a full pylint solution for Gedit.
+
+
+INSTALLATION:
+
+Just put 'pylint.gedit-plugin' file and 'pylint' directory on your
+$HOME/.gnome2/gedit/plugins. Then use Gedit Plugin Manager to activate
+the plugin.
+
+(a setup.py would be nice... I am working on it :)
+
+
+BUGS, SUGESTIONS and so:
+
+Feel free to contact me at ph.silva@gmail.com
+
+
+Thank you,
+
+-- P. Henrique Silva <ph.silva@gmail.com>
+

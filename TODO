@@ -1,0 +1,31 @@
+gedit-pylint TODO
+=================
+
+In random order:
+
+        * better pylint results parser - DONE
+
+        * use GEditStatusBar flash_message to display feedback (not in
+          pyton binding yet?) - DONE (patch submited)
+
+        * config manager to select which kind of
+          errors/warning/conventions to lookup and highlight
+
+        * better results list with icons to different kind of errors,
+          double-click support (goto error line), sortable list,
+          filterable based on error kind. - IN PROGRESS
+
+        * easy way to disable highlight of errors (just leave on
+          results list)
+
+        * configurable keybind
+
+        * configurable highlight colors
+
+        * interactive mode: run pylint as soon as user entered a line
+          (just like spell plugin)
+
+        * add underline-color, strikethrough-color to GtkTextTag
+          (Pango supports but Gtk doesn't expose)
+
+
