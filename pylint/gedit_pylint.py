@@ -89,7 +89,6 @@ class PylintResultsView (gtk.TreeView):
 
         text_iter = doc.get_iter_at_line (line)
         view.scroll_to_iter (text_iter, 0.25)
-        
 
 
 class PylintResultsPanel (gtk.ScrolledWindow):
@@ -372,7 +371,12 @@ class PylintInstance (object):
 
         # cleanup previous run errors
         self._remove_tags (doc)
-        self._results[doc].clear ()
+        if doc in self._results:
+          self._results[doc].clear ()
+
+        # show bottom panel if inactive and switch to Pylint results tab
+        self._window.get_bottom_panel().set_property("visible", True)
+        self._window.get_bottom_panel().activate_item(self._panel)
 
         # display results
         errors, err_lines = self._check_return (out_tmpFile)
