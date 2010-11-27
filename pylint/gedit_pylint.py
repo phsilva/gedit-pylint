@@ -351,7 +351,7 @@ class PylintInstance (object):
 
         # save to a temporary
         #in_tmpFile = open("/home/henrique/lah.py", "w+")
-        in_tmpFile = tempfile.NamedTemporaryFile ("w+", suffix="-gedit-pylint")
+        in_tmpFile = tempfile.NamedTemporaryFile ("w+", suffix="_gedit_pylint.py")
         in_tmpFile.write (text)
         in_tmpFile.flush ()
 
